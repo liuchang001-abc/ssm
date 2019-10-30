@@ -14,6 +14,7 @@ import java.util.List;
 @Transactional
 public class ProductServiceImpl implements IProductService {
 
+    //业务层关联持久层
     @Autowired
     private IProductDao productDao;
 
